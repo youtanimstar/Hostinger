@@ -1,0 +1,51 @@
+.page-seven{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+.page-seven .left{
+    width: 50%;
+    min-height: 30rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-direction: column;
+}
+.page-seven .left h1{
+    font-size: 4.2rem;
+    color: #FBFF12;
+    font-weight: 800;
+}
+.button{
+    cursor: pointer;
+}
+.page-seven .right{
+    width: 40rem;
+}
+@media(max-width: 828px)
+{
+    .page-seven .left{
+        width: 90%;
+    }
+    .page-seven .right{
+        display: block;
+    }
+}
+@media(max-width: 440px)
+{
+    .page-seven .left h1{
+        font-size: 2rem;
+    }
+}
+@media(max-width: 598px)
+{
+    .page-seven .right{
+        width: 90%;
+    }
+}

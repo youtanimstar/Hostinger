@@ -1,0 +1,102 @@
+.page-six{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+    padding-bottom: 0rem;
+}
+.page-six .title{
+    font-size: 2rem;
+}
+@media(max-width: 632px){
+    .page-six .title{
+        font-size: 1.2rem;
+        
+    }
+}
+
+.page-six .card-section .card-page-six{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    flex-direction: column;
+    min-height: 30rem;
+    width: 35rem;
+    gap: 1.5rem;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    gap: 1.5rem;
+    transition: all 0.2s linear;
+}
+.page-six .card-section .card-page-six:hover{
+    transform: translateY(-10px);
+}
+.page-six .card-section .card-page-six .plans{
+    height: 8rem;
+    width: 100%;
+    background-color: #FBFF12;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border-bottom: 5px solid #000;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.page-six .card-section .card-page-six .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.page-six .card-section .card-page-six .price h1{
+    font-size: 4rem;
+}
+.page-six .card-section .fa-indian-rupee-sign{
+    font-size: 2.5rem;
+}
+.page-six .card-section .card-page-six .price p{
+    font-size: 2.5rem;
+}
+.page-six .card-section .card-page-six .button-card-six{
+    padding: 0.2rem 2.5rem;
+    color: #000;
+    border-radius: 50px;
+    font-size: 2.2rem;
+    background-color: #fff;
+    border: 2px solid #000;
+    cursor: pointer;
+    font-weight: 800;
+    transition: all 0.2s linear;
+}
+.page-six .card-section .card-page-six .button-card-six:hover{
+    background-color: #FBFF12;
+}
+.page-six .card-section .card-page-six .details{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    font-weight: 800;
+
+}
+.page-six .card-section .card-page-six .details:hover{
+    color: red;
+}
+
+.page-six .card-section .card-page-six a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+
+

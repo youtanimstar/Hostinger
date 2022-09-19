@@ -1,0 +1,78 @@
+.page-five{
+    min-height: 100vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.page-five .card{
+    min-height: 20rem;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #000;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+}
+.page-five .title{
+    font-size: 2.8rem;
+    height: 10rem;
+    width: 100%;
+    text-align: center;
+}
+
+.page-five .card::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: #FBFF12;
+    position: absolute;
+    top: 100rem;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s linear;
+    
+}
+.page-five .card:hover{
+    box-shadow: 0px 0px 0px transparent;
+    transform: translateY(0px);
+    color: #000;
+    border: 2px solid #FBFF12;
+}
+.page-five .card:hover::before{
+    top: 0;
+}
+.page-five .card h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.page-five .card p{
+    font-size: 2rem;
+    font-weight: 300;
+}
+@media(max-width: 705px){
+    .page-five .title{
+        font-size: 2rem;
+    }
+    .page-five .card h1{
+        font-size: 2rem;
+    }
+    .page-five .card p{
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+}

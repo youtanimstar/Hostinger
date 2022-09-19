@@ -1,0 +1,141 @@
+.page-three{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+    padding-bottom: 0rem;
+}
+.page-three .title{
+    font-size: 2rem;
+}
+@media(max-width: 632px){
+    .page-three .title{
+        font-size: 1.2rem;
+        
+    }
+}
+
+.card-section{
+    width: 100%;
+    min-height: 40rem;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-top: 6rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.card-section .card{
+    min-height: 30rem;
+    width: 35rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    gap: 1.5rem;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.page-three .card-section .card .button{
+    background-color: #fff;
+    color: black;
+    border-color: transparent;
+    cursor: pointer;
+    transition: all 0.1s linear;
+    box-shadow: 0px 0px 10px #000;
+}
+.page-three .card-section .card .button:hover{
+    background-color: #FBFF12;
+    box-shadow: 0px 0px 20px #000;
+}
+.card h1{
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.page-three .card p{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.card .discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.card .discount p{
+    text-decoration: line-through;
+}
+.card .discount .discount-text{
+    padding: 0.2rem 1.2rem;
+    font-weight: 700;
+    background-color: yellow;
+    color: red;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.card .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.card .price h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.card .price p{
+    font-weight: 500;
+    padding-top: 15px;
+}
+.card .price .fa-indian-rupee-sign{
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.card .footer{
+    font-weight: 200;
+}
+
+.card .features p{
+    font-size: 1.5rem;
+    font-weight: 800;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.card .features{
+    text-decoration: none;
+    padding-bottom: 1rem;
+}
+.card .features p:hover{
+    color: red;
+}
+.best-value-text{
+    height: 5rem;
+    width: 100%;
+    background-color: #FBFF12;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #000;
+}
+.best-value-text h1{
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.5rem;
+    margin-top: 0px;
+    font-weight: 800;
+}
+

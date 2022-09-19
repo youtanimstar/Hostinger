@@ -1,0 +1,70 @@
+.page-nine{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+
+}
+.page-nine .title h1{
+    font-size: 3.5rem;
+}
+.page-nine .title p{
+    font-size: 2rem;
+}
+.page-nine .title{
+    min-height: 20rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.faq-card{
+    min-height: 30rem;
+    width: 35rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    text-align: center;
+}
+.faq-card .question{
+    font-size: 2.5rem;
+}
+.faq-card .answer{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.faq-card .answer:hover{
+    color: red;
+}
+.faq-card:hover{
+    transform: translateY(-10px);
+}
+@media(max-width: 439px)
+{
+    .page-nine .title h1{
+        font-size: 2rem;
+    }
+    .page-nine .title p{
+        font-size: 1rem;
+    }
+    .faq-card{
+        max-width: 100%;
+        height: auto;
+    }
+}
+.page-nine .card-section{
+    gap: 5rem;
+    justify-content: center;
+}

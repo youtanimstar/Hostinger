@@ -1,0 +1,120 @@
+.page-eight{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+    padding-bottom: 0rem;
+}
+.page-eight .title{
+    font-size: 2rem;
+}
+@media(max-width: 632px){
+    .page-eight .title{
+        font-size: 1.2rem;
+        
+    }
+}
+
+.page-eight .card-section .card-page-eight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    flex-direction: column;
+    min-height: 30rem;
+    width: 35rem;
+    gap: 1.5rem;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    gap: 1.5rem;
+    transition: all 0.5s linear;
+}
+.page-eight .card-section .card-page-eight:hover{
+    transform: translateY(-10px);
+}
+.page-eight .card-section .card-page-eight .plans{
+    height: 3rem;
+    width: 100%;
+    background-color: #ffffff;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+.page-eight .card-section .card-page-eight .plans-footer{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.page-eight .card-section .card-page-eight .from{
+    font-weight:200;
+    font-size: 2rem;
+}
+.page-eight .card-section .card-page-eight .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.page-eight .card-section .card-page-eight .price h1{
+    font-size: 3.2rem;
+}
+.page-eight .card-section .fa-indian-rupee-sign{
+    font-size: 2.5rem;
+}
+.page-eight .card-section .card-page-eight .price p{
+    font-size: 2.5rem;
+}
+.page-eight .card-section .card-page-eight .button-card-eight{
+    padding: 0.2rem 2.5rem;
+    color: #000;
+    border-radius: 50px;
+    font-size: 2.2rem;
+    background-color: #fff;
+    border: 2px solid #000;
+    cursor: pointer;
+    font-weight: 800;
+    transition: all 0.2s linear;
+}
+.page-eight .card-section .card-page-eight .button-card-eight:hover{
+    background-color: #FBFF12;
+}
+.page-eight .card-section .card-page-eight .details{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    font-weight: 800;
+
+}
+.page-eight .card-section .card-page-eight .details:hover{
+    color: red;
+}
+
+.page-eight .card-section .card-page-eight a{
+    text-decoration: none;
+    color: #000;
+}
+.page-eight .footer{
+    color: #FBFF12;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 2rem;
+
+}
+.page-eight .footer:hover{
+    color: #ffffff;
+}
+
+
+
+
+
+
