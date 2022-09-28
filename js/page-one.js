@@ -1,4 +1,4 @@
-var dest = new Date("oct 30, 2022 24:00:00").getTime();
+var dest = new Date("oct 20, 2022 24:00:00").getTime();
 var x = setInterval(function(){
 var now = new Date().getTime();
 var diff = dest - now;
